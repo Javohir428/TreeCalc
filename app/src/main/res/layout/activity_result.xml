@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Наименование лестничества"/>
+            <TextView
+                android:id="@+id/t_forestry"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Районное лестничество"/>
+            <TextView
+                android:id="@+id/t_local_forestry"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Квартал"/>
+            <TextView
+                android:id="@+id/t_kvartal"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Выдел"/>
+            <TextView
+                android:id="@+id/t_videl"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Номер пробной площади"/>
+            <TextView
+                android:id="@+id/t_nomer_pp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Площадь"/>
+            <TextView
+                android:id="@+id/t_area"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Порода"/>
+            <TextView
+                android:id="@+id/t_poroda"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Разряд высот"/>
+            <TextView
+                android:id="@+id/t_rh"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Ступень толщины"/>
+            <TextView
+                android:id="@+id/t_stupen"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Диаметр"/>
+            <TextView
+                android:id="@+id/t_diametr"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Общий запас"/>
+            <TextView
+                android:id="@+id/t_ob_zapas"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Запас крупный"/>
+            <TextView
+                android:id="@+id/t_zapas_krupniy"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Запас средний"/>
+            <TextView
+                android:id="@+id/t_zapas_sredniy"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Запас мелкой"/>
+            <TextView
+                android:id="@+id/t_zapas_melkiy"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Запас деловой"/>
+            <TextView
+                android:id="@+id/t_zapas_delovoy"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

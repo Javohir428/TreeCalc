@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/poroda_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Порода"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/rh_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Разряд высот"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/poroda_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/st_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Ступень толщины"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/rh_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/diametr_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Диаметр"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/st_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/kol_del_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Количество деловых"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/diametr_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/kol_pol_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Количество полуделовых"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/kol_del_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/kol_drov_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Количество дровяных"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/kol_pol_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/ob_z_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Общий запас"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/kol_drov_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/zap_krup_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Запас крупный"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/ob_z_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/zap_sred_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Запас средний"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/zap_krup_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/zap_mel_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Запас мелкой"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/zap_sred_t"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/zap_del_t"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:text="Запас деловой"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/zap_mel_t"
+        android:textSize="14sp"/>
+</RelativeLayout>

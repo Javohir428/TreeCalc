@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43a047</color>
+    <color name="colorPrimaryDark">#43a047</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#90caf9</color>
+    <color name="table_divider_color">#b1b1b1</color>
+</resources>
